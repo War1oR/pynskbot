@@ -1,0 +1,2 @@
+AUTH_TOKEN = "auth"
+BOT_DATA_UPDATE = 10
