@@ -10,9 +10,9 @@ class Bot():
     def __init__(self, cmd, auth, members=None):
         self.cmd = cmd
         self.members = members or []
-        self.bot = bot = telegram.Bot(AUTH_TOKEN)
+        self.bot = telegram.Bot(AUTH_TOKEN)
         try:
-            self.last_upd = bot.getUpdates()[-1].update_id
+            self.last_upd = self.bot.getUpdates()[-1].update_id
         except IndexError:
             self.last_upd = None
 
