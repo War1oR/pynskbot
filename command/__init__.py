@@ -1,4 +1,4 @@
-from command import start
+from command.start import start
 
 __author__ = 'warior'
 __date__ = '28.10.2015'
